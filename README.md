@@ -1,5 +1,5 @@
 # ApiIntegrationTest
-Bu projede RoofStacks tarafından verilen task oluşturulmuş olup JSON API isteğinin sonucunun(http status) kontrolünü gerçekleştiren bir entegrasyon testi projesidir.   <br /><br />
+Bu proje JSON API isteğinin sonucunun(http status) kontrolünü gerçekleştiren bir entegrasyon testi projesidir.   <br /><br />
 ## Proje Özellikleri
 * Rest-Assured ile Java dilinde API entegrasyon otomasyonu projesidir.
 * Url: http://generator.swagger.io
@@ -9,7 +9,7 @@ Bu projede RoofStacks tarafından verilen task oluşturulmuş olup JSON API iste
 * Proje çıktı olarak Response status code ve response bilgilerini bastırmakta. 
 * Response Status code 200 değilse başarısız olarak "Assertion Error" vermekte.
 
-## RoofStacks Task İsterleri
+## Task İsterleri
 
 -JSON API isteğinin sonucunun(http status) kontrolünü gerçekleştiren bir entegrasyon testi yazınız. <br />
 (Örnek url: http://generator.swagger.io)  <br />
