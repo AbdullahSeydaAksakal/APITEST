@@ -1,24 +1,23 @@
 # ApiIntegrationTest
-Bu proje JSON API isteğinin sonucunun(http status) kontrolünü gerçekleştiren bir entegrasyon testi projesidir.   <br /><br />
-## Proje Özellikleri
-* Rest-Assured ile Java dilinde API entegrasyon otomasyonu projesidir.
+This project is an integration test project that checks the result (http status) of the JSON API request.   <br /><br />
+## Project Features
+* It is a project for API integration automation in Java with Rest-Assured.
 * Url: http://generator.swagger.io
-* Seçilen Endpoint: /api/gen/clients
-* Projedeki İstek metodları : POST ve GET
-* Assertion için JUnit kütüphanesi kullanılmakta.
-* Proje çıktı olarak Response status code ve response bilgilerini bastırmakta. 
-* Response Status code 200 değilse başarısız olarak "Assertion Error" vermekte.
+* Selected Endpoint: /api/gen/clients
+* Request methods in the project: POST and GET
+* JUnit library is used for Assertion.
+* The project prints the Response status code and response information as output.
+* If the Response Status code is not 200, it fails and gives "Assertion Error".
 
-## Task İsterleri
+## Task Requests
 
--JSON API isteğinin sonucunun(http status) kontrolünü gerçekleştiren bir entegrasyon testi yazınız. <br />
-(Örnek url: http://generator.swagger.io)  <br />
--Tarafınızdan seçilecek birer tane GET ve POST endpointleri için Http status code 200 verirse başarılı,
-değilse başarısız olarak rapor edilmelidir.
+-Write an integration test that checks the result (http status) of the JSON API request. <br />
+(Sample url: http://generator.swagger.io)  <br />
+-If the Http status code for each GET and POST endpoint selected by you gives 200, it should be reported as successful, otherwise it should be reported as unsuccessful.
 
-## Test Çıktısı
+## Test Output
 
-HATALI POST DATASI İLE SONUÇ  <br />
+RESULT WITH INCORRECT POST DATA  <br />
 ```
 Response POST Body is =>  {"code":500,"type":"unknown","message":"something bad happened"}
 Response POST Status Code =>  500
@@ -43,7 +42,7 @@ Response GET Status Code =>  200
 
 ```
 
-DOĞRU POST DATASI İLE SONUÇ  <br />
+RESULT WITH CORRECT POST DATA  <br />
 
 ```
 
